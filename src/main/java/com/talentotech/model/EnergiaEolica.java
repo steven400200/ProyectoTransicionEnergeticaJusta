@@ -8,6 +8,7 @@ public class EnergiaEolica extends EnergiaRenovable {
     private int numeroTurbinas;
 //esto es un comentario
 //Hola
+    //que mas?
     public EnergiaEolica(String tipo,
                          String pais,
                          int anio,
