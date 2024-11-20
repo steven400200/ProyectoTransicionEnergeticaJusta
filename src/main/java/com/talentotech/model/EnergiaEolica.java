@@ -6,7 +6,7 @@ public class EnergiaEolica extends EnergiaRenovable {
     private double velocidadViento; // en m/s
     private double areaBarrido; // en m² area barrida por las aspas del aerogenerador
     private int numeroTurbinas;
-
+//esto es un comentario
     public EnergiaEolica(String tipo,
                          String pais,
                          int anio,
