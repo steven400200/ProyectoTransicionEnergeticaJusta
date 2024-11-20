@@ -5,7 +5,7 @@ public class EnergiaEolica extends EnergiaRenovable {
     private static final double DENSIDAD_AIRE = 1.225; // Densidad del aire en kg/m³ al nivel del mar.
     private double velocidadViento; // en m/s
     private double areaBarrido; // en m² area barrida por las aspas del aerogenerador
-    private int numeroTurbinas;
+   
 
     public EnergiaEolica(String tipo,
                          String pais,
