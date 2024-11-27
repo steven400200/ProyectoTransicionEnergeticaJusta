@@ -1,4 +1,4 @@
-package com.talentotech.model;
+package com.talentotech.entity;
 
 public class EnergiaGeotermica extends EnergiaRenovable {
 

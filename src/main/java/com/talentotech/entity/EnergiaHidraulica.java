@@ -1,4 +1,4 @@
-package com.talentotech.model;
+package com.talentotech.entity;
 
 public class EnergiaHidraulica extends EnergiaRenovable {
     private static double EFICIENCIA=0.7;//Porcentaje de eficiencia de la turbina (normalmente entre 0.7 y 0.9).

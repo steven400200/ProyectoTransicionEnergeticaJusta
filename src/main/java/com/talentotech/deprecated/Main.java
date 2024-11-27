@@ -1,10 +1,10 @@
-package com.talentotech;
+package com.talentotech.deprecated;
 
-import com.talentotech.logica.GestionDatos;
-import com.talentotech.model.EnergiaEolica;
-import com.talentotech.model.EnergiaHidraulica;
-import com.talentotech.model.EnergiaRenovable;
-import com.talentotech.model.EnergiaSolar;
+import com.talentotech.deprecated.logica.GestionDatos;
+import com.talentotech.entity.EnergiaEolica;
+import com.talentotech.entity.EnergiaHidraulica;
+import com.talentotech.entity.EnergiaRenovable;
+import com.talentotech.entity.EnergiaSolar;
 
 import javax.swing.*;
 import java.util.ArrayList;

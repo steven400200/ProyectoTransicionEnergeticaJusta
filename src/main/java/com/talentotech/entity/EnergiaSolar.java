@@ -1,4 +1,4 @@
-package com.talentotech.model;
+package com.talentotech.entity;
 
 public class EnergiaSolar extends EnergiaRenovable {
     private static final double EFICIENCIA = 0.15; // Porcentaje de eficiencia de las placas solares (normalmente entre 0.15 y 0.20).

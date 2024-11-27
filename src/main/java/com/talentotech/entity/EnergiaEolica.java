@@ -1,14 +1,14 @@
-package com.talentotech.model;
+package com.talentotech.entity;
+
 
 public class EnergiaEolica extends EnergiaRenovable {
+
     private static final double EFICIENCIA = 0.4; // Porcentaje de eficiencia de los aerogeneradores (normalmente entre 0.3 y 0.4).
     private static final double DENSIDAD_AIRE = 1.225; // Densidad del aire en kg/m³ al nivel del mar.
     private double velocidadViento; // en m/s
     private double areaBarrido; // en m² area barrida por las aspas del aerogenerador
     private int numeroTurbinas;
-//esto es un comentario
-//Hola
-    //que mas?
+
     public EnergiaEolica(String tipo,
                          String pais,
                          int anio,

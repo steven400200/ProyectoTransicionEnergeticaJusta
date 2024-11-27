@@ -1,9 +1,11 @@
-package com.talentotech.model;
+package com.talentotech.entity;
+
+import jakarta.persistence.Id;
 
 public abstract class EnergiaRenovable {
 
-    private final int id;
-    private static int contadorId;
+    @Id
+    private int id;
     private String tipo;
     private String pais;
     private int anio;
@@ -15,7 +17,6 @@ public abstract class EnergiaRenovable {
                             int anio,
                             double produccion,
                             double consumo) {
-        this.id = ++EnergiaRenovable.contadorId;
         this.tipo = tipo;
         this.pais = pais;
         this.anio = anio;

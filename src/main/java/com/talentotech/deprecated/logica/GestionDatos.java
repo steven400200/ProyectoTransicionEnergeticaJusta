@@ -1,11 +1,9 @@
-package com.talentotech.logica;
+package com.talentotech.deprecated.logica;
 
-import com.talentotech.model.*;
-import com.talentotech.model.Usuario;
+import com.talentotech.entity.EnergiaRenovable;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class GestionDatos {
 
