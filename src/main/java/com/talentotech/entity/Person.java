@@ -10,7 +10,7 @@ import java.util.List;
 public class Person {
 
     @Id
-    private String id;
+    private int id;
     private String name;
     @Column(name = "last_name")
     private String lastName;
