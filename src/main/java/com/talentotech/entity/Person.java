@@ -10,6 +10,7 @@ import java.util.List;
 public class Person {
 
     @Id
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
     @Column(name = "last_name")
@@ -18,7 +19,7 @@ public class Person {
     @Column(name = "phone_number")
     private String phoneNumber;
     private String email;
-    @OneToMany(mappedBy = "persona")
+    @OneToMany(mappedBy = "person")
     private List<User> users ;
 
 

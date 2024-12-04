@@ -1,8 +1,6 @@
 package com.talentotech.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
@@ -10,9 +8,11 @@ import lombok.Data;
 public class User {
 
     @Id
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private int id;
     private String usuario;
     private String password;
     @ManyToOne
+    @JoinColumn(name = "person_id")
     private Person person;
 }
